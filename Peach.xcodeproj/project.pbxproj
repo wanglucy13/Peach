@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090DD80192F2A5470A14705B /* libPods-Peach.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E960299C4FF43D47E030A8C7 /* libPods-Peach.a */; };
+		66305AD01EB40E1200CAFB31 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66305ACF1EB40E1200CAFB31 /* UserModel.m */; };
+		664B32201EB6B9DA00BB49DE /* FoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 664B321F1EB6B9DA00BB49DE /* FoodModel.m */; };
+		6656423C1EB3C8F000367C01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6656423B1EB3C8F000367C01 /* GoogleService-Info.plist */; };
+		667610A31EA6BE00005C735B /* Peach.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 667610A21EA6BE00005C735B /* Peach.xcdatamodeld */; };
+		667610A61EA6BE16005C735B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 667610A51EA6BE16005C735B /* AppDelegate.m */; };
+		667610AA1EA6BE2A005C735B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 667610A81EA6BE2A005C735B /* main.m */; };
+		667610B31EA6BE57005C735B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667610AE1EA6BE57005C735B /* LoginViewController.m */; };
+		667610B41EA6BE57005C735B /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667610B01EA6BE57005C735B /* SignupViewController.m */; };
+		667610B51EA6BE57005C735B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667610B21EA6BE57005C735B /* ViewController.m */; };
+		667610BD1EA6BE6C005C735B /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 667610B71EA6BE6C005C735B /* Raleway-Bold.ttf */; };
+		667610BE1EA6BE6C005C735B /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 667610B81EA6BE6C005C735B /* Raleway-ExtraLight.ttf */; };
+		667610BF1EA6BE6C005C735B /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 667610B91EA6BE6C005C735B /* Raleway-Light.ttf */; };
+		667610C01EA6BE6C005C735B /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 667610BA1EA6BE6C005C735B /* Raleway-Medium.ttf */; };
+		667610C11EA6BE6C005C735B /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 667610BB1EA6BE6C005C735B /* Raleway-Regular.ttf */; };
+		667610C21EA6BE6C005C735B /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 667610BC1EA6BE6C005C735B /* Raleway-SemiBold.ttf */; };
+		667610C71EA6BE90005C735B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667610C31EA6BE90005C735B /* LaunchScreen.storyboard */; };
+		667610C81EA6BE90005C735B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667610C51EA6BE90005C735B /* Main.storyboard */; };
+		667610C91EA6C032005C735B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667610AB1EA6BE34005C735B /* Assets.xcassets */; };
+		667610E31EA89B3A005C735B /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667610E21EA89B3A005C735B /* ChatViewController.m */; };
+		669734E51EB9E0CE00A578F1 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 669734E41EB9E0CE00A578F1 /* MenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15141025D945BCEDB5C422E6 /* Pods-Peach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peach.release.xcconfig"; path = "Pods/Target Support Files/Pods-Peach/Pods-Peach.release.xcconfig"; sourceTree = "<group>"; };
+		66305ACE1EB40E1200CAFB31 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = SOURCE_ROOT; };
+		66305ACF1EB40E1200CAFB31 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = SOURCE_ROOT; };
+		664B321E1EB6B9DA00BB49DE /* FoodModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodModel.h; sourceTree = SOURCE_ROOT; };
+		664B321F1EB6B9DA00BB49DE /* FoodModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodModel.m; sourceTree = SOURCE_ROOT; };
+		6653ACC41EA5E22600758BCD /* Peach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6653ACEA1EA5ED1100758BCD /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		6653ACEC1EA5EFB200758BCD /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../../../FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		6653ACEE1EA5F0DC00758BCD /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		6656423B1EB3C8F000367C01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6656423D1EB3C9D000367C01 /* libIQKeyboardManager.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIQKeyboardManager.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/IQKeyboardManager/libIQKeyboardManager.a"; sourceTree = "<group>"; };
+		6656423E1EB3C9D000367C01 /* libJSQMessagesViewController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJSQMessagesViewController.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/JSQMessagesViewController/libJSQMessagesViewController.a"; sourceTree = "<group>"; };
+		665642471EB3EDFF00367C01 /* libBolts.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBolts.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/Bolts/libBolts.a"; sourceTree = "<group>"; };
+		665642481EB3EDFF00367C01 /* libFBSDKCoreKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKCoreKit.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/libFBSDKCoreKit.a"; sourceTree = "<group>"; };
+		665642491EB3EDFF00367C01 /* libFBSDKLoginKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKLoginKit.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/libFBSDKLoginKit.a"; sourceTree = "<group>"; };
+		6656424A1EB3EDFF00367C01 /* libFBSDKShareKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFBSDKShareKit.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/FBSDKShareKit/libFBSDKShareKit.a"; sourceTree = "<group>"; };
+		6656424B1EB3EDFF00367C01 /* libGoogleToolboxForMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleToolboxForMac.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/libGoogleToolboxForMac.a"; sourceTree = "<group>"; };
+		6656424C1EB3EDFF00367C01 /* libJSQSystemSoundPlayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJSQSystemSoundPlayer.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/JSQSystemSoundPlayer/libJSQSystemSoundPlayer.a"; sourceTree = "<group>"; };
+		6656424D1EB3EDFF00367C01 /* libPods-Peach.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Peach.a"; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/libPods-Peach.a"; sourceTree = "<group>"; };
+		6656424E1EB3EDFF00367C01 /* libQMChatViewController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQMChatViewController.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/QMChatViewController/libQMChatViewController.a"; sourceTree = "<group>"; };
+		6656424F1EB3EDFF00367C01 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/SDWebImage/libSDWebImage.a"; sourceTree = "<group>"; };
+		665642501EB3EDFF00367C01 /* libTTTAttributedLabel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTTTAttributedLabel.a; path = "../../../../../../Library/Developer/Xcode/DerivedData/Peach-cmntepkyloitskbikiaajoykuaki/Build/Products/Debug-iphonesimulator/TTTAttributedLabel/libTTTAttributedLabel.a"; sourceTree = "<group>"; };
+		667610A41EA6BE16005C735B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Peach/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		667610A51EA6BE16005C735B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Peach/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		667610A71EA6BE2A005C735B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Peach/Info.plist; sourceTree = SOURCE_ROOT; };
+		667610A81EA6BE2A005C735B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Peach/main.m; sourceTree = SOURCE_ROOT; };
+		667610AB1EA6BE34005C735B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Peach/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		667610AD1EA6BE57005C735B /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Peach/LoginViewController.h; sourceTree = SOURCE_ROOT; };
+		667610AE1EA6BE57005C735B /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Peach/LoginViewController.m; sourceTree = SOURCE_ROOT; };
+		667610AF1EA6BE57005C735B /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignupViewController.h; path = Peach/SignupViewController.h; sourceTree = SOURCE_ROOT; };
+		667610B01EA6BE57005C735B /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignupViewController.m; path = Peach/SignupViewController.m; sourceTree = SOURCE_ROOT; };
+		667610B11EA6BE57005C735B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Peach/ViewController.h; sourceTree = SOURCE_ROOT; };
+		667610B21EA6BE57005C735B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Peach/ViewController.m; sourceTree = SOURCE_ROOT; };
+		667610B71EA6BE6C005C735B /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
+		667610B81EA6BE6C005C735B /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-ExtraLight.ttf"; sourceTree = "<group>"; };
+		667610B91EA6BE6C005C735B /* Raleway-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Light.ttf"; sourceTree = "<group>"; };
+		667610BA1EA6BE6C005C735B /* Raleway-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Medium.ttf"; sourceTree = "<group>"; };
+		667610BB1EA6BE6C005C735B /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
+		667610BC1EA6BE6C005C735B /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		667610C41EA6BE90005C735B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Peach/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		667610C61EA6BE90005C735B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Peach/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		667610E11EA89B3A005C735B /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = Peach/ChatViewController.h; sourceTree = SOURCE_ROOT; };
+		667610E21EA89B3A005C735B /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = Peach/ChatViewController.m; sourceTree = SOURCE_ROOT; };
+		669734E31EB9E0CE00A578F1 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = SOURCE_ROOT; };
+		669734E41EB9E0CE00A578F1 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = SOURCE_ROOT; };
+		BE4CD7DF5C4F881B789A35B9 /* Pods-Peach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Peach.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Peach/Pods-Peach.debug.xcconfig"; sourceTree = "<group>"; };
+		E960299C4FF43D47E030A8C7 /* libPods-Peach.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Peach.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6653ACC11EA5E22600758BCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090DD80192F2A5470A14705B /* libPods-Peach.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AA0B67FE0BB16007686AFA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE4CD7DF5C4F881B789A35B9 /* Pods-Peach.debug.xcconfig */,
+				15141025D945BCEDB5C422E6 /* Pods-Peach.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6653ACBB1EA5E22600758BCD = {
+			isa = PBXGroup;
+			children = (
+				667610AB1EA6BE34005C735B /* Assets.xcassets */,
+				6653ACE31EA5E92C00758BCD /* Frameworks */,
+				6653ACC61EA5E22600758BCD /* Peach */,
+				6653ACC51EA5E22600758BCD /* Products */,
+				3AA0B67FE0BB16007686AFA2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6653ACC51EA5E22600758BCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6653ACC41EA5E22600758BCD /* Peach.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6653ACC61EA5E22600758BCD /* Peach */ = {
+			isa = PBXGroup;
+			children = (
+				6653AD191EA60F8900758BCD /* Controller */,
+				6653AD181EA60F8500758BCD /* View */,
+				6653AD171EA60F8200758BCD /* Model */,
+				6653ACC71EA5E22600758BCD /* Supporting Files */,
+			);
+			name = Peach;
+			path = Peatchy;
+			sourceTree = "<group>";
+		};
+		6653ACC71EA5E22600758BCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6653AD1A1EA60F9A00758BCD /* Fonts */,
+				667610A41EA6BE16005C735B /* AppDelegate.h */,
+				667610A51EA6BE16005C735B /* AppDelegate.m */,
+				667610A21EA6BE00005C735B /* Peach.xcdatamodeld */,
+				6656423B1EB3C8F000367C01 /* GoogleService-Info.plist */,
+				667610A71EA6BE2A005C735B /* Info.plist */,
+				667610A81EA6BE2A005C735B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6653ACE31EA5E92C00758BCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				665642471EB3EDFF00367C01 /* libBolts.a */,
+				665642481EB3EDFF00367C01 /* libFBSDKCoreKit.a */,
+				665642491EB3EDFF00367C01 /* libFBSDKLoginKit.a */,
+				6656424A1EB3EDFF00367C01 /* libFBSDKShareKit.a */,
+				6656424B1EB3EDFF00367C01 /* libGoogleToolboxForMac.a */,
+				6656424C1EB3EDFF00367C01 /* libJSQSystemSoundPlayer.a */,
+				6656424D1EB3EDFF00367C01 /* libPods-Peach.a */,
+				6656424E1EB3EDFF00367C01 /* libQMChatViewController.a */,
+				6656424F1EB3EDFF00367C01 /* libSDWebImage.a */,
+				665642501EB3EDFF00367C01 /* libTTTAttributedLabel.a */,
+				6656423D1EB3C9D000367C01 /* libIQKeyboardManager.a */,
+				6656423E1EB3C9D000367C01 /* libJSQMessagesViewController.a */,
+				6653ACEE1EA5F0DC00758BCD /* FBSDKCoreKit.framework */,
+				6653ACEC1EA5EFB200758BCD /* Bolts.framework */,
+				6653ACEA1EA5ED1100758BCD /* FBSDKLoginKit.framework */,
+				E960299C4FF43D47E030A8C7 /* libPods-Peach.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6653AD171EA60F8200758BCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				66305ACE1EB40E1200CAFB31 /* UserModel.h */,
+				66305ACF1EB40E1200CAFB31 /* UserModel.m */,
+				664B321E1EB6B9DA00BB49DE /* FoodModel.h */,
+				664B321F1EB6B9DA00BB49DE /* FoodModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6653AD181EA60F8500758BCD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				667610C31EA6BE90005C735B /* LaunchScreen.storyboard */,
+				667610C51EA6BE90005C735B /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6653AD191EA60F8900758BCD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				667610AD1EA6BE57005C735B /* LoginViewController.h */,
+				667610AE1EA6BE57005C735B /* LoginViewController.m */,
+				667610AF1EA6BE57005C735B /* SignupViewController.h */,
+				667610B01EA6BE57005C735B /* SignupViewController.m */,
+				667610B11EA6BE57005C735B /* ViewController.h */,
+				667610B21EA6BE57005C735B /* ViewController.m */,
+				667610E11EA89B3A005C735B /* ChatViewController.h */,
+				667610E21EA89B3A005C735B /* ChatViewController.m */,
+				669734E31EB9E0CE00A578F1 /* MenuViewController.h */,
+				669734E41EB9E0CE00A578F1 /* MenuViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6653AD1A1EA60F9A00758BCD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				667610B61EA6BE6C005C735B /* Raleway */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		667610B61EA6BE6C005C735B /* Raleway */ = {
+			isa = PBXGroup;
+			children = (
+				667610B71EA6BE6C005C735B /* Raleway-Bold.ttf */,
+				667610B81EA6BE6C005C735B /* Raleway-ExtraLight.ttf */,
+				667610B91EA6BE6C005C735B /* Raleway-Light.ttf */,
+				667610BA1EA6BE6C005C735B /* Raleway-Medium.ttf */,
+				667610BB1EA6BE6C005C735B /* Raleway-Regular.ttf */,
+				667610BC1EA6BE6C005C735B /* Raleway-SemiBold.ttf */,
+			);
+			name = Raleway;
+			path = Peach/Raleway;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6653ACC31EA5E22600758BCD /* Peach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6653ACDE1EA5E22700758BCD /* Build configuration list for PBXNativeTarget "Peach" */;
+			buildPhases = (
+				C11CFE66311EE60DBA3A6634 /* [CP] Check Pods Manifest.lock */,
+				6653ACC01EA5E22600758BCD /* Sources */,
+				6653ACC11EA5E22600758BCD /* Frameworks */,
+				6653ACC21EA5E22600758BCD /* Resources */,
+				A8F4AD332BE9EEB480D2B59D /* [CP] Embed Pods Frameworks */,
+				3122F8CDCCBEF3BB88F70C7A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Peach;
+			productName = Peatchy;
+			productReference = 6653ACC41EA5E22600758BCD /* Peach.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6653ACBC1EA5E22600758BCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yi Wang";
+				TargetAttributes = {
+					6653ACC31EA5E22600758BCD = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 9A96339MFJ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6653ACBF1EA5E22600758BCD /* Build configuration list for PBXProject "Peach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6653ACBB1EA5E22600758BCD;
+			productRefGroup = 6653ACC51EA5E22600758BCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6653ACC31EA5E22600758BCD /* Peach */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6653ACC21EA5E22600758BCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667610C71EA6BE90005C735B /* LaunchScreen.storyboard in Resources */,
+				667610C81EA6BE90005C735B /* Main.storyboard in Resources */,
+				667610C21EA6BE6C005C735B /* Raleway-SemiBold.ttf in Resources */,
+				667610C11EA6BE6C005C735B /* Raleway-Regular.ttf in Resources */,
+				667610C91EA6C032005C735B /* Assets.xcassets in Resources */,
+				667610C01EA6BE6C005C735B /* Raleway-Medium.ttf in Resources */,
+				667610BE1EA6BE6C005C735B /* Raleway-ExtraLight.ttf in Resources */,
+				6656423C1EB3C8F000367C01 /* GoogleService-Info.plist in Resources */,
+				667610BF1EA6BE6C005C735B /* Raleway-Light.ttf in Resources */,
+				667610BD1EA6BE6C005C735B /* Raleway-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3122F8CDCCBEF3BB88F70C7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Peach/Pods-Peach-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8F4AD332BE9EEB480D2B59D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Peach/Pods-Peach-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C11CFE66311EE60DBA3A6634 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6653ACC01EA5E22600758BCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667610B51EA6BE57005C735B /* ViewController.m in Sources */,
+				667610B31EA6BE57005C735B /* LoginViewController.m in Sources */,
+				667610A31EA6BE00005C735B /* Peach.xcdatamodeld in Sources */,
+				667610AA1EA6BE2A005C735B /* main.m in Sources */,
+				664B32201EB6B9DA00BB49DE /* FoodModel.m in Sources */,
+				667610A61EA6BE16005C735B /* AppDelegate.m in Sources */,
+				667610E31EA89B3A005C735B /* ChatViewController.m in Sources */,
+				66305AD01EB40E1200CAFB31 /* UserModel.m in Sources */,
+				667610B41EA6BE57005C735B /* SignupViewController.m in Sources */,
+				669734E51EB9E0CE00A578F1 /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		667610C31EA6BE90005C735B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667610C41EA6BE90005C735B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		667610C51EA6BE90005C735B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667610C61EA6BE90005C735B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6653ACDC1EA5E22700758BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"";
+			};
+			name = Debug;
+		};
+		6653ACDD1EA5E22700758BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6653ACDF1EA5E22700758BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE4CD7DF5C4F881B789A35B9 /* Pods-Peach.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEVELOPMENT_TEAM = 9A96339MFJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"/Users/$(USER)/Documents/FacebookSDK\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AMSlideMenu\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+				);
+				INFOPLIST_FILE = Peach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = YiWang.Peach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/\"/**";
+			};
+			name = Debug;
+		};
+		6653ACE01EA5E22700758BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15141025D945BCEDB5C422E6 /* Pods-Peach.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				DEVELOPMENT_TEAM = 9A96339MFJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseCore/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"/Users/$(USER)/Documents/FacebookSDK\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AMSlideMenu\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+				);
+				INFOPLIST_FILE = Peach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = YiWang.Peach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6653ACBF1EA5E22600758BCD /* Build configuration list for PBXProject "Peach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6653ACDC1EA5E22700758BCD /* Debug */,
+				6653ACDD1EA5E22700758BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6653ACDE1EA5E22700758BCD /* Build configuration list for PBXNativeTarget "Peach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6653ACDF1EA5E22700758BCD /* Debug */,
+				6653ACE01EA5E22700758BCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		667610A21EA6BE00005C735B /* Peach.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+			);
+			name = Peach.xcdatamodeld;
+			path = ../Peach/Peach.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6653ACBC1EA5E22600758BCD /* Project object */;
+}
